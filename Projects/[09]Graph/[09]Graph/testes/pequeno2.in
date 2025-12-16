@@ -1,0 +1,6 @@
+all: app
+app: core.o io.o net.o util.o
+core.o: core.c core.h
+io.o: core.h io.c io.h net.h
+net.o: net.c net.h
+util.o: util.c util.h

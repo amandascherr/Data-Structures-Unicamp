@@ -1,0 +1,18 @@
+all: ui core net tools
+ui: ui.o view.o
+core: util.o m.o
+net: net.o util.o
+tools: pack.o util.o
+
+m.o: main.c common.h
+util.o: util.c util.h
+view.o: view.c ui.h
+ui.o: ui.c ui.h
+net.o: net.c net.h
+pack.o: pack.c pack.h
+
+common.h: base.h
+ui.h: common.h gfx.h
+net.h: common.h proto.h
+util.h: common.h math.h
+pack.h: io.h

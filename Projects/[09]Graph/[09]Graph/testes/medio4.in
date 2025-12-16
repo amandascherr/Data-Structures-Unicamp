@@ -1,0 +1,220 @@
+all: app
+algo.o: algo.c algo.h
+app: algo.o audio.o auth.o bloom.o cache.o cfg.o cli_mod.o color.o conf.o core.o core100.o core101.o core102.o core103.o core104.o core105.o core106.o core107.o core108.o core109.o core110.o core111.o core112.o core113.o core114.o core115.o core116.o core117.o core118.o core119.o core120.o core121.o core122.o core123.o core124.o core125.o core126.o core127.o core128.o core129.o core130.o core131.o core132.o core133.o core134.o core135.o core136.o core137.o core138.o core139.o core140.o core141.o core142.o core143.o core144.o core145.o core146.o core147.o core148.o core149.o core150.o core151.o core152.o core153.o core154.o core155.o core156.o core157.o core158.o core159.o core160.o core161.o core162.o core163.o core164.o core165.o core166.o core167.o core168.o core169.o core170.o core171.o core172.o core173.o core174.o core175.o core176.o core177.o core178.o core179.o core180.o core181.o core182.o core183.o core184.o core185.o core186.o core187.o core188.o core189.o core190.o core191.o core192.o core193.o core194.o core195.o core196.o core197.o core198.o core199.o core200.o core201.o core202.o core203.o core204.o core205.o core206.o core207.o core208.o core209.o core210.o core211.o core212.o core213.o core214.o core215.o core63.o core64.o core65.o core66.o core67.o core68.o core69.o core70.o core71.o core72.o core73.o core74.o core75.o core76.o core77.o core78.o core79.o core80.o core81.o core82.o core83.o core84.o core85.o core86.o core87.o core88.o core89.o core90.o core91.o core92.o core93.o core94.o core95.o core96.o core97.o core98.o core99.o crypto.o date.o db.o debug.o env.o event.o fft.o fs.o gpu.o graph.o hash.o heap.o http.o image.o io.o json.o lexer.o log.o map.o math.o mem.o metrics.o net.o parser.o path.o proc.o profile.o queue.o render.o rng.o sched.o server_mod.o set.o socket.o stack.o str.o sync.o tar.o tensor.o thread.o time.o timer.o tree.o ui.o unix.o util.o video.o vm.o win.o worker_mod.o xml.o yaml.o zip.o
+audio.h: app
+audio.o: audio.c audio.h core196.h
+auth.o: auth.c auth.h
+bloom.o: bloom.c bloom.h
+cache.o: cache.c cache.h core68.h
+cfg.o: cfg.c cfg.h core186.h core213.h
+cli_mod.o: cli_mod.c cli_mod.h core.h core77.h
+color.o: color.c color.h
+conf.o: conf.c conf.h
+core.o: core.c core.h core151.h core75.h
+core100.o: core100.c core100.h core212.h render.h
+core101.o: core100.h core101.c core101.h core92.h
+core102.o: core102.c core102.h core127.h
+core103.o: core103.c core103.h xml.h yaml.h
+core104.o: core104.c core104.h core176.h json.h
+core105.o: color.h core105.c core105.h
+core106.o: core106.c core106.h tree.h
+core107.o: core107.c core107.h core189.h
+core108.o: core108.c core108.h core197.h
+core109.o: core109.c core109.h core188.h image.h
+core110.o: core110.c core110.h
+core111.o: core111.c core111.h core211.h
+core112.o: core112.c core112.h
+core113.o: core101.h core113.c core113.h core214.h
+core114.o: core114.c core114.h core124.h util.h
+core115.o: core115.c core115.h core202.h gpu.h
+core116.o: core116.c core116.h core131.h
+core117.o: core117.c core117.h worker_mod.h
+core118.o: core118.c core118.h core122.h core90.h
+core119.o: core119.c core119.h
+core120.o: core120.c core120.h core169.h core192.h
+core121.o: core121.c core121.h
+core122.o: core122.c core122.h core170.h
+core123.o: core123.c core123.h
+core124.o: core124.c core124.h core162.h core70.h
+core125.o: core125.c core125.h core203.h
+core126.o: core126.c core126.h
+core127.o: core127.c core127.h
+core128.o: core128.c core128.h
+core129.o: core129.c core129.h http.h
+core130.o: core130.c core130.h
+core131.o: cli_mod.h core131.c core131.h core85.h
+core132.o: core132.c core132.h core191.h
+core133.o: core133.c core133.h map.h
+core134.o: core134.c core134.h
+core135.o: core135.c core135.h tensor.h
+core136.o: core136.c core136.h core66.h
+core137.o: core137.c core137.h
+core138.o: core138.c core138.h
+core139.o: core139.c core139.h
+core140.o: core107.h core140.c core140.h net.h
+core141.o: core128.h core141.c core141.h
+core142.o: core133.h core142.c core142.h
+core143.o: core143.c core143.h core153.h core196.h
+core144.o: core144.c core144.h
+core145.o: core145.c core145.h core80.h
+core146.o: core119.h core146.c core146.h
+core147.o: core147.c core147.h
+core148.o: core148.c core148.h
+core149.o: core149.c core149.h
+core150.o: core150.c core150.h core203.h
+core151.o: core119.h core151.c core151.h core171.h
+core152.o: core152.c core152.h
+core153.o: core132.h core153.c core153.h worker_mod.h
+core154.o: core154.c core154.h
+core155.o: core155.c core155.h
+core156.o: core156.c core156.h core174.h
+core157.o: core157.c core157.h
+core158.o: core138.h core158.c core158.h path.h
+core159.o: core159.c core159.h
+core160.o: core116.h core160.c core160.h
+core161.o: core150.h core161.c core161.h core98.h
+core162.o: core162.c core162.h core189.h
+core163.o: core150.h core163.c core163.h core169.h
+core164.o: algo.h core136.h core164.c core164.h
+core165.o: core165.c core165.h socket.h
+core166.o: core166.c core166.h
+core167.o: core160.h core167.c core167.h str.h
+core168.o: core150.h core168.c core168.h server_mod.h
+core169.o: core115.h core169.c core169.h core94.h
+core170.o: core.h core170.c core170.h core67.h
+core171.o: core171.c core171.h core210.h
+core172.o: core172.c core172.h
+core173.o: core173.c core173.h
+core174.o: core174.c core174.h queue.h
+core175.o: core175.c core175.h http.h util.h
+core176.o: core176.c core176.h
+core177.o: core111.h core177.c core177.h
+core178.o: core127.h core178.c core178.h core191.h
+core179.o: core179.c core179.h
+core180.o: core180.c core180.h
+core181.o: core133.h core181.c core181.h http.h
+core182.o: core158.h core182.c core182.h core71.h
+core183.o: core183.c core183.h
+core184.o: core184.c core184.h
+core185.o: core185.c core185.h core90.h
+core186.o: core186.c core186.h
+core187.o: core187.c core187.h
+core188.o: core188.c core188.h core205.h queue.h
+core189.o: core155.h core189.c core189.h
+core190.o: core190.c core190.h core74.h
+core191.o: core191.c core191.h core80.h
+core192.o: core192.c core192.h
+core193.o: core109.h core193.c core193.h
+core194.o: core194.c core194.h
+core195.o: core179.h core195.c core195.h
+core196.o: core196.c core196.h
+core197.o: core172.h core197.c core197.h
+core198.o: core126.h core149.h core198.c core198.h
+core199.o: core199.c core199.h
+core200.o: core200.c core200.h
+core201.o: core189.h core201.c core201.h heap.h
+core202.o: core127.h core202.c core202.h core90.h
+core203.o: core203.c core203.h
+core204.o: core204.c core204.h core71.h
+core205.o: core205.c core205.h
+core206.o: core206.c core206.h
+core207.o: core163.h core207.c core207.h log.h
+core208.o: core208.c core208.h
+core209.o: core161.h core209.c core209.h
+core210.o: core210.c core210.h
+core211.o: core211.c core211.h core76.h core96.h
+core212.o: core201.h core212.c core212.h tree.h
+core213.o: core213.c core213.h
+core214.o: core178.h core214.c core214.h
+core215.o: core138.h core215.c core215.h
+core63.o: core63.c core63.h core82.h
+core64.o: core64.c core64.h
+core65.o: core215.h core65.c core65.h
+core66.o: core164.h core66.c core66.h
+core67.o: core67.c core67.h
+core68.o: core160.h core68.c core68.h
+core69.o: core69.c core69.h
+core70.o: core70.c core70.h image.h
+core71.o: core116.h core157.h core71.c core71.h
+core72.o: core72.c core72.h
+core73.o: core73.c core73.h
+core74.o: core65.h core74.c core74.h date.h
+core75.o: core75.c core75.h
+core76.o: core116.h core76.c core76.h
+core77.o: core170.h core77.c core77.h core85.h
+core78.o: core171.h core78.c core78.h
+core79.o: core79.c core79.h
+core80.o: core80.c core80.h
+core81.o: core148.h core81.c core81.h
+core82.o: core82.c core82.h
+core83.o: core202.h core83.c core83.h
+core84.o: core84.c core84.h
+core85.o: core65.h core85.c core85.h vm.h
+core86.o: core86.c core86.h
+core87.o: core65.h core87.c core87.h
+core88.o: core66.h core88.c core88.h
+core89.o: core140.h core89.c core89.h
+core90.o: core100.h core90.c core90.h
+core91.o: core191.h core91.c core91.h
+core92.o: core214.h core92.c core92.h map.h
+core93.o: core182.h core195.h core93.c core93.h
+core94.o: core105.h core94.c core94.h
+core95.o: core95.c core95.h debug.h
+core96.o: core178.h core96.c core96.h
+core97.o: core86.h core97.c core97.h map.h
+core98.o: core98.c core98.h unix.h
+core99.o: core79.h core99.c core99.h
+crypto.o: crypto.c crypto.h
+date.o: core136.h core66.h date.c date.h
+db.o: core121.h db.c db.h
+debug.o: debug.c debug.h
+env.o: env.c env.h
+event.o: event.c event.h parser.h
+fft.o: fft.c fft.h
+fs.o: core170.h core89.h fs.c fs.h
+gpu.o: gpu.c gpu.h
+graph.o: core97.h graph.c graph.h
+hash.o: core67.h hash.c hash.h path.h
+heap.o: core81.h heap.c heap.h
+http.o: http.c http.h
+image.o: core137.h image.c image.h str.h
+io.o: core66.h io.c io.h
+json.o: core131.h json.c json.h
+lexer.o: core79.h lexer.c lexer.h rng.h
+log.o: log.c log.h
+map.o: core160.h core97.h map.c map.h
+math.o: math.c math.h
+mem.o: mem.c mem.h
+metrics.o: core181.h core182.h metrics.c metrics.h
+net.o: net.c net.h
+parser.o: parser.c parser.h
+path.o: path.c path.h
+proc.o: proc.c proc.h
+profile.o: cli_mod.h profile.c profile.h str.h
+queue.o: queue.c queue.h
+render.o: render.c render.h
+rng.o: queue.h rng.c rng.h
+sched.o: core128.h sched.c sched.h
+server_mod.o: server_mod.c server_mod.h yaml.h
+set.o: core209.h set.c set.h
+socket.o: core101.h socket.c socket.h sync.h
+stack.o: core79.h stack.c stack.h
+str.o: core124.h str.c str.h unix.h
+sync.o: core96.h json.h sync.c sync.h
+tar.o: tar.c tar.h
+tensor.o: core185.h socket.h tensor.c tensor.h
+thread.o: fs.h thread.c thread.h xml.h
+time.o: time.c time.h
+timer.o: core172.h core207.h timer.c timer.h
+tree.o: core197.h debug.h tree.c tree.h
+ui.o: core183.h timer.h ui.c ui.h
+unix.o: core102.h core84.h unix.c unix.h
+util.o: color.h util.c util.h
+video.o: core212.h video.c video.h
+vm.o: log.h vm.c vm.h
+win.o: color.h win.c win.h
+worker_mod.o: core109.h core133.h worker_mod.c worker_mod.h
+xml.o: core157.h xml.c xml.h
+yaml.o: hash.h yaml.c yaml.h
+zip.o: zip.c zip.h
+

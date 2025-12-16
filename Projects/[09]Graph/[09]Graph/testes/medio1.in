@@ -1,0 +1,102 @@
+all: app tests
+algo.o: algo.c algo.h cache.h conf.h core71.h core74.h core75.h core84.h core88.h core89.h core97.h gpu.h parser.h sync.h
+app: algo.o audio.o auth.o bloom.o cache.o cfg.o cli_mod.o color.o conf.o core.o core63.o core64.o core65.o core66.o core67.o core68.o core69.o core70.o core71.o core72.o core73.o core74.o core75.o core76.o core77.o core78.o core79.o core80.o core81.o core82.o core83.o core84.o core85.o core86.o core87.o core88.o core89.o core90.o core91.o core92.o core93.o core94.o core95.o core96.o core97.o core98.o crypto.o date.o db.o debug.o env.o event.o fft.o fs.o gpu.o graph.o hash.o heap.o http.o image.o io.o json.o lexer.o log.o map.o math.o mem.o metrics.o net.o parser.o path.o proc.o profile.o queue.o render.o rng.o sched.o server_mod.o set.o socket.o stack.o str.o sync.o tar.o tensor.o thread.o time.o timer.o tree.o ui.o unix.o util.o video.o vm.o win.o worker_mod.o xml.o yaml.o zip.o
+audio.o: audio.c audio.h conf.h core65.h core68.h core70.h core78.h core79.h core89.h env.h fft.h hash.h queue.h rng.h server_mod.h str.h
+auth.o: auth.c auth.h core69.h core70.h core85.h core94.h db.h env.h event.h image.h lexer.h parser.h unix.h
+bloom.o: bloom.c bloom.h conf.h core85.h core89.h core92.h core97.h core98.h hash.h parser.h proc.h set.h tar.h thread.h unix.h video.h
+cache.o: auth.h bloom.h cache.c cache.h core.h core66.h core71.h core79.h core92.h core94.h core98.h gpu.h tree.h
+cfg.o: cfg.c cfg.h color.h core64.h core75.h core93.h debug.h http.h json.h lexer.h map.h metrics.h server_mod.h video.h vm.h
+cli_mod.o: cli_mod.c cli_mod.h core.h core64.h core81.h core82.h graph.h queue.h render.h server_mod.h tensor.h worker_mod.h
+color.o: color.c color.h core64.h core70.h core71.h core84.h core95.h json.h rng.h stack.h worker_mod.h
+conf.o: algo.h conf.c conf.h core.h core63.h core72.h heap.h proc.h socket.h tensor.h
+core.o: color.h core.c core.h core64.h core95.h core97.h core98.h heap.h io.h mem.h thread.h ui.h video.h yaml.h zip.h
+core63.o: cli_mod.h core63.c core63.h core64.h core68.h core78.h core84.h core86.h fs.h heap.h queue.h render.h rng.h
+core64.o: core64.c core64.h core71.h core77.h core78.h core91.h math.h server_mod.h vm.h
+core65.o: core63.h core64.h core65.c core65.h core83.h core85.h core92.h debug.h env.h fs.h heap.h json.h profile.h ui.h util.h
+core66.o: auth.h core66.c core66.h core69.h core92.h core95.h io.h lexer.h map.h timer.h util.h
+core67.o: auth.h core66.h core67.c core67.h core69.h core70.h core73.h fft.h graph.h math.h tree.h
+core68.o: color.h core67.h core68.c core68.h core69.h core85.h core86.h core87.h crypto.h hash.h parser.h socket.h vm.h
+core69.o: core.h core66.h core69.c core69.h core76.h core78.h core91.h fft.h heap.h json.h rng.h util.h
+core70.o: algo.h cli_mod.h conf.h core67.h core70.c core70.h core89.h core95.h crypto.h path.h
+core71.o: algo.h audio.h core63.h core68.h core71.c core71.h core74.h core80.h core81.h core91.h core92.h core97.h hash.h heap.h io.h log.h path.h profile.h queue.h tar.h vm.h xml.h yaml.h zip.h
+core72.o: conf.h core66.h core72.c core72.h core88.h debug.h env.h image.h net.h profile.h socket.h vm.h worker_mod.h zip.h
+core73.o: core66.h core69.h core72.h core73.c core73.h core76.h core82.h core85.h fft.h hash.h io.h log.h net.h profile.h socket.h time.h xml.h
+core74.o: algo.h audio.h core.h core67.h core68.h core72.h core74.c core74.h core82.h core97.h debug.h fs.h sched.h sync.h vm.h
+core75.o: core67.h core70.h core74.h core75.c core75.h core88.h core92.h core96.h graph.h math.h proc.h queue.h timer.h unix.h
+core76.o: color.h core66.h core76.c core76.h core78.h core85.h core87.h core91.h date.h db.h env.h event.h log.h render.h sync.h yaml.h
+core77.o: core77.c core77.h core79.h core82.h debug.h hash.h render.h socket.h
+core78.o: core78.c core78.h core93.h image.h math.h parser.h queue.h rng.h timer.h tree.h
+core79.o: core70.h core79.c core79.h core84.h core88.h core94.h image.h profile.h server_mod.h sync.h
+core80.o: cfg.h core69.h core77.h core80.c core80.h core86.h crypto.h http.h log.h net.h tar.h tree.h worker_mod.h zip.h
+core81.o: algo.h audio.h conf.h core65.h core76.h core77.h core81.c core81.h core88.h mem.h proc.h socket.h str.h
+core82.o: audio.h cache.h cfg.h core79.h core82.c core82.h core90.h crypto.h parser.h proc.h queue.h render.h time.h tree.h zip.h
+core83.o: core68.h core80.h core83.c core83.h core89.h core98.h crypto.h fs.h graph.h mem.h rng.h socket.h
+core84.o: cache.h cfg.h color.h core64.h core68.h core80.h core84.c core84.h core90.h core93.h core94.h env.h lexer.h mem.h profile.h queue.h tree.h unix.h
+core85.o: color.h core65.h core68.h core83.h core85.c core85.h core91.h event.h queue.h stack.h sync.h time.h util.h
+core86.o: bloom.h core66.h core86.c core86.h debug.h hash.h heap.h lexer.h sync.h tensor.h time.h
+core87.o: cache.h core79.h core86.h core87.c core87.h core90.h core95.h image.h io.h rng.h server_mod.h stack.h time.h vm.h
+core88.o: core65.h core68.h core78.h core88.c core88.h crypto.h lexer.h sync.h util.h
+core89.o: audio.h cache.h core64.h core72.h core83.h core89.c core89.h core96.h event.h http.h lexer.h profile.h tar.h unix.h vm.h win.h xml.h
+core90.o: core83.h core88.h core90.c core90.h str.h tar.h timer.h xml.h
+core91.o: core64.h core66.h core77.h core80.h core91.c core91.h profile.h str.h win.h
+core92.o: core70.h core78.h core79.h core80.h core88.h core90.h core92.c core92.h event.h http.h mem.h path.h sync.h tensor.h tree.h worker_mod.h xml.h
+core93.o: core67.h core71.h core79.h core83.h core84.h core87.h core93.c core93.h lexer.h metrics.h net.h path.h proc.h set.h tensor.h thread.h win.h worker_mod.h
+core94.o: algo.h auth.h core64.h core69.h core78.h core86.h core94.c core94.h env.h image.h render.h vm.h
+core95.o: core.h core68.h core81.h core87.h core89.h core92.h core93.h core94.h core95.c core95.h crypto.h db.h heap.h lexer.h proc.h queue.h render.h sync.h tar.h
+core96.o: bloom.h core74.h core76.h core82.h core84.h core91.h core94.h core96.c core96.h http.h json.h tar.h time.h timer.h tree.h
+core97.o: core96.h core97.c core97.h fs.h io.h win.h
+core98.o: bloom.h core67.h core73.h core74.h core79.h core83.h core86.h core93.h core94.h core98.c core98.h io.h math.h tar.h
+crypto.o: cache.h conf.h core.h core63.h core66.h core82.h core83.h core89.h crypto.c crypto.h env.h fs.h map.h win.h xml.h
+date.o: audio.h cfg.h core63.h core68.h core72.h core77.h core81.h core95.h crypto.h date.c date.h fft.h log.h map.h parser.h set.h stack.h sync.h
+db.o: algo.h core70.h core74.h core77.h core81.h db.c db.h graph.h parser.h profile.h stack.h vm.h worker_mod.h
+debug.o: cli_mod.h core86.h core88.h core98.h debug.c debug.h event.h queue.h stack.h
+env.o: bloom.h core87.h core90.h core92.h debug.h env.c env.h metrics.h profile.h server_mod.h thread.h
+event.o: core70.h core75.h core79.h core82.h core84.h date.h event.c event.h image.h json.h parser.h str.h thread.h time.h tree.h vm.h
+fft.o: auth.h cache.h core84.h core96.h date.h env.h fft.c fft.h json.h lexer.h path.h profile.h render.h tar.h timer.h unix.h worker_mod.h
+fs.o: core70.h core80.h fs.c fs.h path.h profile.h rng.h server_mod.h tensor.h
+gpu.o: audio.h core70.h db.h gpu.c gpu.h map.h stack.h sync.h tar.h video.h
+graph.o: bloom.h core69.h core73.h core79.h core80.h core83.h core91.h core95.h core97.h env.h fft.h graph.c graph.h path.h proc.h rng.h timer.h yaml.h
+hash.o: core63.h core67.h core70.h core75.h core77.h core83.h core86.h core92.h core94.h core95.h event.h hash.c hash.h http.h sync.h thread.h time.h timer.h unix.h vm.h
+heap.o: core70.h core90.h core91.h crypto.h fs.h heap.c heap.h net.h
+http.o: core.h core80.h core97.h debug.h http.c http.h path.h win.h worker_mod.h
+image.o: core.h core77.h core88.h image.c image.h map.h parser.h server_mod.h str.h win.h
+io.o: core82.h core92.h core95.h env.h io.c io.h lexer.h tensor.h util.h vm.h xml.h
+json.o: core.h core65.h core76.h core83.h core90.h core93.h core96.h env.h event.h gpu.h graph.h http.h json.c json.h log.h profile.h tar.h vm.h zip.h
+lexer.o: cache.h core65.h core71.h core73.h core80.h core85.h core92.h core93.h core97.h env.h fft.h gpu.h lexer.c lexer.h net.h time.h timer.h
+log.o: auth.h core83.h core84.h core92.h event.h graph.h heap.h log.c log.h path.h queue.h set.h
+map.o: bloom.h cfg.h core.h core63.h core68.h core72.h core75.h core86.h core87.h core91.h core95.h json.h map.c map.h sched.h time.h yaml.h zip.h
+math.o: cache.h conf.h core64.h core70.h core72.h core73.h core74.h core85.h core88.h core95.h core98.h date.h json.h math.c math.h socket.h
+mem.o: core63.h core73.h core84.h core92.h hash.h map.h math.h mem.c mem.h metrics.h path.h vm.h
+metrics.o: auth.h bloom.h core64.h core68.h core79.h core87.h env.h heap.h metrics.c metrics.h vm.h worker_mod.h xml.h zip.h
+net.o: audio.h cache.h core74.h core76.h core93.h hash.h net.c net.h thread.h
+parser.o: core63.h core71.h core80.h core81.h core85.h date.h gpu.h heap.h metrics.h parser.c parser.h queue.h win.h zip.h
+path.o: core86.h env.h math.h path.c path.h sched.h
+proc.o: audio.h core72.h core75.h core93.h core98.h fft.h math.h path.h proc.c proc.h socket.h ui.h video.h win.h
+profile.o: cli_mod.h conf.h core63.h core65.h core69.h core86.h core90.h core98.h fs.h gpu.h lexer.h path.h profile.c profile.h queue.h tar.h tensor.h time.h vm.h
+queue.o: color.h core76.h core78.h core80.h core96.h db.h graph.h path.h queue.c queue.h tar.h util.h
+render.o: cfg.h color.h core.h core66.h core74.h core88.h date.h net.h render.c render.h util.h
+rng.o: conf.h lexer.h queue.h rng.c rng.h video.h xml.h yaml.h
+sched.o: audio.h cfg.h color.h core65.h core71.h core78.h core89.h core97.h mem.h parser.h queue.h sched.c sched.h ui.h unix.h worker_mod.h
+server_mod.o: core.h core63.h core67.h core73.h core82.h server_mod.c server_mod.h set.h time.h
+set.o: audio.h color.h core.h core64.h core70.h core89.h fft.h io.h set.c set.h vm.h
+socket.o: core73.h core76.h core80.h core81.h core89.h core90.h gpu.h graph.h http.h net.h proc.h queue.h socket.c socket.h str.h tensor.h tree.h ui.h util.h video.h
+stack.o: cache.h core64.h core65.h core89.h event.h stack.c stack.h yaml.h
+str.o: cache.h cli_mod.h conf.h core76.h core94.h core96.h metrics.h str.c str.h xml.h yaml.h
+sync.o: cfg.h color.h core76.h core87.h image.h log.h sync.c sync.h time.h util.h video.h worker_mod.h
+tar.o: cache.h core64.h core69.h core86.h core91.h heap.h lexer.h server_mod.h tar.c tar.h tree.h
+tensor.o: cfg.h core66.h core71.h core88.h core95.h db.h json.h proc.h set.h str.h tar.h tensor.c tensor.h video.h
+tests: algo.o audio.o auth.o bloom.o cache.o cfg.o cli_mod.o color.o conf.o core.o core63.o core64.o core65.o core66.o core67.o core68.o core69.o core70.o core71.o core72.o core73.o core74.o core75.o core76.o core77.o core78.o core79.o core80.o core81.o core82.o core83.o core84.o core85.o core86.o core87.o core88.o core89.o core90.o core91.o core92.o core93.o core94.o core95.o core96.o core97.o core98.o crypto.o date.o db.o debug.o env.o event.o fft.o fs.o gpu.o graph.o hash.o heap.o http.o image.o io.o json.o lexer.o log.o map.o math.o mem.o metrics.o net.o parser.o path.o proc.o profile.o queue.o render.o rng.o sched.o server_mod.o set.o socket.o stack.o str.o sync.o tar.o tensor.o thread.o time.o timer.o tree.o ui.o unix.o util.o video.o vm.o win.o worker_mod.o xml.o yaml.o zip.o
+thread.o: cfg.h core64.h core66.h core67.h core78.h core82.h core86.h env.h event.h graph.h io.h json.h profile.h set.h tensor.h thread.c thread.h xml.h
+time.o: core71.h core82.h core85.h debug.h fs.h json.h proc.h queue.h time.c time.h timer.h tree.h xml.h zip.h
+timer.o: core82.h crypto.h debug.h set.h stack.h str.h timer.c timer.h
+tree.o: core81.h core82.h core89.h core94.h core98.h graph.h lexer.h thread.h tree.c tree.h worker_mod.h
+ui.o: core71.h core85.h core86.h core98.h crypto.h date.h fs.h hash.h map.h set.h timer.h ui.c ui.h xml.h
+unix.o: conf.h core71.h core72.h core90.h core96.h event.h heap.h image.h json.h unix.c unix.h util.h yaml.h
+util.o: cli_mod.h core64.h core84.h core85.h image.h lexer.h path.h queue.h util.c util.h
+video.o: cfg.h core78.h core86.h heap.h io.h json.h metrics.h socket.h sync.h tensor.h video.c video.h zip.h
+vm.o: color.h core87.h core88.h core93.h core98.h gpu.h graph.h mem.h parser.h render.h sync.h video.h vm.c vm.h
+win.o: audio.h core65.h core78.h core79.h db.h event.h heap.h time.h win.c win.h xml.h
+worker_mod.o: auth.h core64.h core67.h core70.h core84.h core85.h core90.h core91.h core97.h crypto.h graph.h mem.h path.h queue.h render.h tensor.h tree.h worker_mod.c worker_mod.h
+xml.o: bloom.h core.h core80.h graph.h render.h tree.h win.h xml.c xml.h
+yaml.o: audio.h auth.h core80.h core90.h core91.h core97.h core98.h fft.h io.h path.h yaml.c yaml.h zip.h
+zip.o: cli_mod.h core65.h core68.h core70.h core74.h core81.h core87.h core91.h http.h net.h rng.h timer.h xml.h zip.c zip.h

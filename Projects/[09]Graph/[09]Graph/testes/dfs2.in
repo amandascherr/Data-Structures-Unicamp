@@ -1,0 +1,12 @@
+all: lib utils app
+lib: l1.o l2.o
+utils: u1.o u2.o
+app: main.o lib utils
+
+main.o: main.c common.h
+l1.o: l1.c common.h
+l2.o: l2.c common.h
+u1.o: u1.c common.h
+u2.o: u2.c common.h
+
+common.h: config.h

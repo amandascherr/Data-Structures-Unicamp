@@ -1,0 +1,13 @@
+all: app core tool
+app: main.o core util.o
+tool: t.o util.o
+core: c1.o c2.o
+
+main.o: main.c common.h
+c1.o: c1.c common.h
+c2.o: c2.c common.h
+t.o: t.c util.h
+util.o: util.c util.h
+
+common.h: base.h
+util.h: base.h

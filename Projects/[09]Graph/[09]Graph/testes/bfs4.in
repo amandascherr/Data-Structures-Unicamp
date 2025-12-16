@@ -1,0 +1,9 @@
+release: app docs
+app: core.o ui.o
+docs: readme.md
+
+core.o: core.c common.h
+ui.o: ui.c ui.h
+
+common.h: base.h
+ui.h: common.h gfx.h

@@ -1,0 +1,11 @@
+all: app tests
+app: core.o io.o net.o util.o
+tests: test.o
+
+core.o: core.c core.h util.o
+io.o: io.c io.h
+net.o: net.c net.h core.o
+util.o: util.c util.h parser.o
+parser.o: parser.c parser.h net.o
+
+test.o: test.c core.h

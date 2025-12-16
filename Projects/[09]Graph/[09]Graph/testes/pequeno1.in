@@ -1,0 +1,7 @@
+all: app tests
+app: a.o b.o
+tests: t.o b.o
+
+a.o: a.c a.h
+b.o: b.c a.h
+t.o: t.c a.h

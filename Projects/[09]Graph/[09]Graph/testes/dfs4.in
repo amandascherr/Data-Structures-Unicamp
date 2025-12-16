@@ -1,0 +1,13 @@
+all: ui core net
+ui: m.o view.o
+core: util.o m.o
+net: net.o util.o
+
+m.o: main.c common.h
+view.o: view.c ui.h
+util.o: util.c common.h
+net.o: net.c net.h
+
+common.h: base.h
+ui.h: base.h
+net.h: common.h

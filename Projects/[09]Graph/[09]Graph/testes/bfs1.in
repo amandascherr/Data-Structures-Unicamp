@@ -1,0 +1,7 @@
+all: app tests
+app: main.o core.o
+tests: test_run.o core.o
+
+main.o: main.c core.h
+core.o: core.c core.h
+test_run.o: test_run.c core.h

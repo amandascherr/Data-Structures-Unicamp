@@ -1,0 +1,5 @@
+all: app
+app: main.o util.o
+
+main.o: main.c util.h
+util.o: util.c util.h

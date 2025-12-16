@@ -1,0 +1,12 @@
+Distância até release - 0: release
+Distância até release - 1: app
+Distância até release - 1: docs
+Distância até release - 2: core.o
+Distância até release - 2: readme.md
+Distância até release - 2: ui.o
+Distância até release - 3: common.h
+Distância até release - 3: core.c
+Distância até release - 3: ui.c
+Distância até release - 3: ui.h
+Distância até release - 4: base.h
+Distância até release - 4: gfx.h

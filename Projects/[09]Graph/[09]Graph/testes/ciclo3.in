@@ -1,0 +1,7 @@
+all: app
+app: main.o lib.o
+main.o: main.c lib.h
+lib.o: lib.c lib.h
+lib.h: headers.o
+headers.o: parser.o
+parser.o: parse.c lib.o

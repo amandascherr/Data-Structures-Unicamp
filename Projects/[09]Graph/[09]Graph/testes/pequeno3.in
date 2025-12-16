@@ -1,0 +1,8 @@
+all: app
+app: core.o db.o io.o math.o net.o util.o
+core.o: core.c core.h io.h
+db.o: core.h db.c db.h io.h
+io.o: io.c io.h
+math.o: db.h math.c math.h
+net.o: db.h net.c net.h util.h
+util.o: db.h util.c util.h
