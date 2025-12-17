@@ -1,23 +1,18 @@
-# Data Structures
+# Data Structures - Unicamp
 
-This repository contains a collection of programming projects developed during a **Data Structures** course at the **University of Campinas (UNICAMP)**.
+This repository contains a collection of programming projects developed during a **Data Structures** course (MC202) at the **University of Campinas (UNICAMP)**.
 
 Each project addresses a real-world–inspired problem where selecting and implementing the appropriate data structure was essential to an efficient solution.
 
 All projects were implemented in **C**, with a strong focus on algorithmic reasoning, efficiency, and proper use of abstract data types.
 
-## 🧱 Covered Data Structures
+## 📚 Covered Data Structures
 
-The repository includes implementations and applications of structures such as:
+This repository includes implementations and applications of structures such as:
 
-- Arrays and Dynamic Arrays  
-- Linked Lists  
-- Stacks and Queues  
-- Trees (e.g., Binary Trees, Binary Search Trees)  
-- Hash Tables  
-- Graphs  
 - Heaps / Priority Queues  
-
+- Graphs
+  
 Each project focuses on one main structure, although auxiliary structures may also appear when necessary.
 
 ---
