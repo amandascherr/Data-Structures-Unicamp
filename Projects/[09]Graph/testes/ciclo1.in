@@ -1,4 +1,0 @@
-all: app
-app: core.o
-core.o: util.o
-util.o: app
