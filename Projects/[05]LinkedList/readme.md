@@ -1,3 +1,4 @@
+# Deque
 Esta tarefa consiste em manipular a ordem de ataque de heróis representada por um deque implementado com lista ligada. O programa deve permitir inserções e remoções nas duas extremidades, inserções em posições arbitrárias e aplicar feitiços mágicos que alteram a ordem dos heróis (como inverter prefixos e inverter sufixos).
 ## Critérios
 Nesta atividade, é necessário:\
