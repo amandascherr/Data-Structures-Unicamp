@@ -1,0 +1,10 @@
+posicionar Mago1 0
+posicionar Guerreiro1 1
+posicionar Arqueiro1 1
+convocar-frente Ladino1
+convocar-fim Clerigo1
+posicionar Druida1 2
+posicionar Paladino1 4
+posicionar Bardo1 0
+convocar-fim Ranger1
+sair

@@ -1,0 +1,13 @@
+posicionar Mago1 0
+posicionar Guerreiro1 0
+caos 2
+confusao 2
+remover 1
+puxar-tras
+convocar-fim Arqueiro1
+convocar-fim Clerigo1
+caos 2
+confusao 2
+puxar-frente
+remover 0
+sair

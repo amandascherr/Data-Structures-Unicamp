@@ -1,0 +1,28 @@
+Mago1 entrou no fim
+ordem de ataque: Mago1 
+Guerreiro1 entrou no fim
+ordem de ataque: Mago1 Guerreiro1 
+Arqueiro1 entrou no fim
+ordem de ataque: Mago1 Guerreiro1 Arqueiro1 
+Clerigo1 entrou no fim
+ordem de ataque: Mago1 Guerreiro1 Arqueiro1 Clerigo1 
+Ladino1 entrou no fim
+ordem de ataque: Mago1 Guerreiro1 Arqueiro1 Clerigo1 Ladino1 
+Druida1 entrou no fim
+ordem de ataque: Mago1 Guerreiro1 Arqueiro1 Clerigo1 Ladino1 Druida1 
+Druida1 removido da posicao 5
+ordem de ataque: Mago1 Guerreiro1 Arqueiro1 Clerigo1 Ladino1 
+Mago1 removido da posicao 0
+ordem de ataque: Guerreiro1 Arqueiro1 Clerigo1 Ladino1 
+Clerigo1 removido da posicao 2
+ordem de ataque: Guerreiro1 Arqueiro1 Ladino1 
+Paladino1 entrou no inicio
+ordem de ataque: Paladino1 Guerreiro1 Arqueiro1 Ladino1 
+Bardo1 entrou no fim
+ordem de ataque: Paladino1 Guerreiro1 Arqueiro1 Ladino1 Bardo1 
+Bardo1 removido do fim
+ordem de ataque: Paladino1 Guerreiro1 Arqueiro1 Ladino1 
+Paladino1 removido do inicio
+ordem de ataque: Guerreiro1 Arqueiro1 Ladino1 
+Arqueiro1 removido da posicao 1
+ordem de ataque: Guerreiro1 Ladino1 

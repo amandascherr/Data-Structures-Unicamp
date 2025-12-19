@@ -1,0 +1,15 @@
+convocar-fim Mago1
+convocar-fim Guerreiro1
+convocar-fim Arqueiro1
+convocar-fim Clerigo1
+convocar-fim Ladino1
+convocar-fim Druida1
+remover 5
+remover 0
+remover 2
+convocar-frente Paladino1
+convocar-fim Bardo1
+puxar-tras
+puxar-frente
+remover 1
+sair

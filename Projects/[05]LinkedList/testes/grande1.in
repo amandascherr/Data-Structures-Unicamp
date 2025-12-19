@@ -1,0 +1,337 @@
+convocar-fim Mago1
+puxar-frente
+posicionar Paladino1 0
+ataque
+puxar-frente
+convocar-frente Guerreiro1
+puxar-frente
+posicionar Bardo1 0
+remover 0
+convocar-fim Druida1
+convocar-frente Druida2
+convocar-fim Guerreiro2
+caos 2
+caos 3
+caos 2
+puxar-frente
+confusao 2
+convocar-fim Paladino2
+ataque
+convocar-frente Druida3
+puxar-tras
+convocar-frente Guerreiro3
+caos 2
+puxar-tras
+puxar-tras
+convocar-frente Guerreiro4
+ataque
+confusao 3
+remover 0
+posicionar Ladino1 1
+confusao 2
+convocar-fim Clerigo1
+ataque
+convocar-fim Druida4
+convocar-frente Paladino3
+caos 6
+remover 2
+convocar-fim Paladino4
+posicionar Ladino2 3
+convocar-fim Clerigo2
+posicionar Guerreiro5 2
+puxar-frente
+ataque
+remover 0
+convocar-frente Arqueiro1
+puxar-tras
+caos 3
+caos 3
+confusao 6
+caos 6
+convocar-fim Arqueiro2
+convocar-fim Mago2
+caos 3
+convocar-frente Guerreiro6
+convocar-frente Clerigo3
+confusao 4
+confusao 5
+convocar-fim Druida5
+caos 12
+ataque
+convocar-frente Paladino5
+remover 2
+remover 7
+remover 2
+confusao 6
+convocar-fim Mago3
+confusao 11
+ataque
+ataque
+convocar-frente Druida6
+confusao 12
+caos 11
+caos 6
+puxar-tras
+remover 6
+caos 9
+puxar-frente
+puxar-frente
+ataque
+confusao 7
+posicionar Paladino6 4
+posicionar Guerreiro7 1
+caos 8
+puxar-frente
+posicionar Guerreiro8 2
+confusao 10
+convocar-frente Bardo2
+puxar-frente
+convocar-fim Paladino7
+ataque
+confusao 7
+caos 7
+convocar-fim Paladino8
+puxar-tras
+confusao 6
+caos 2
+confusao 7
+caos 11
+confusao 3
+caos 2
+confusao 4
+convocar-frente Mago4
+confusao 8
+confusao 2
+convocar-fim Ladino3
+caos 7
+posicionar Arqueiro3 8
+puxar-frente
+convocar-fim Arqueiro4
+posicionar Druida7 1
+puxar-frente
+confusao 5
+convocar-fim Ladino4
+caos 11
+caos 6
+caos 7
+ataque
+caos 6
+caos 4
+puxar-tras
+convocar-frente Bardo3
+puxar-tras
+ataque
+confusao 10
+confusao 14
+confusao 3
+remover 6
+puxar-frente
+convocar-fim Mago5
+confusao 8
+confusao 7
+convocar-fim Guerreiro9
+caos 13
+ataque
+ataque
+convocar-fim Clerigo4
+caos 10
+puxar-tras
+caos 6
+puxar-frente
+puxar-frente
+puxar-tras
+caos 11
+puxar-tras
+confusao 5
+convocar-frente Druida8
+confusao 7
+ataque
+convocar-fim Ladino5
+remover 10
+caos 4
+confusao 4
+convocar-fim Arqueiro5
+convocar-fim Druida9
+convocar-frente Druida10
+caos 10
+caos 8
+convocar-frente Ladino6
+convocar-fim Arqueiro6
+ataque
+convocar-frente Mago6
+convocar-frente Mago7
+confusao 13
+confusao 4
+remover 16
+convocar-fim Clerigo5
+caos 3
+confusao 14
+puxar-tras
+puxar-tras
+convocar-fim Guerreiro10
+convocar-frente Guerreiro11
+ataque
+convocar-frente Bardo4
+confusao 16
+convocar-frente Guerreiro12
+convocar-fim Mago8
+puxar-tras
+ataque
+convocar-fim Arqueiro7
+remover 3
+convocar-frente Ladino7
+ataque
+posicionar Clerigo6 19
+caos 10
+convocar-frente Clerigo7
+convocar-frente Clerigo8
+puxar-frente
+convocar-frente Clerigo9
+remover 17
+convocar-frente Guerreiro13
+ataque
+convocar-fim Guerreiro14
+posicionar Druida11 20
+convocar-fim Clerigo10
+remover 5
+remover 19
+ataque
+convocar-frente Druida12
+convocar-frente Clerigo11
+remover 13
+confusao 8
+confusao 4
+caos 12
+puxar-tras
+caos 17
+confusao 21
+posicionar Druida13 6
+posicionar Guerreiro15 22
+caos 15
+puxar-tras
+ataque
+remover 25
+convocar-frente Bardo5
+convocar-frente Clerigo12
+remover 1
+puxar-tras
+convocar-fim Mago9
+confusao 22
+convocar-frente Ladino8
+ataque
+convocar-fim Clerigo13
+puxar-tras
+confusao 20
+puxar-frente
+convocar-frente Arqueiro8
+convocar-fim Paladino9
+confusao 12
+posicionar Arqueiro9 17
+ataque
+confusao 17
+posicionar Paladino10 10
+convocar-frente Guerreiro16
+remover 7
+posicionar Ladino9 25
+remover 3
+caos 7
+confusao 28
+confusao 3
+confusao 9
+convocar-frente Paladino11
+posicionar Ladino10 23
+caos 8
+confusao 25
+ataque
+ataque
+convocar-fim Paladino12
+convocar-fim Paladino13
+puxar-tras
+convocar-frente Guerreiro17
+remover 1
+ataque
+convocar-fim Guerreiro18
+puxar-frente
+caos 6
+convocar-fim Paladino14
+convocar-frente Arqueiro10
+confusao 14
+posicionar Paladino15 13
+remover 18
+ataque
+caos 24
+remover 18
+confusao 3
+convocar-fim Paladino16
+convocar-frente Druida14
+remover 26
+posicionar Clerigo14 17
+ataque
+convocar-frente Clerigo15
+caos 35
+puxar-frente
+posicionar Bardo6 7
+posicionar Ladino11 4
+caos 7
+convocar-fim Arqueiro11
+confusao 12
+convocar-fim Druida15
+puxar-tras
+convocar-frente Druida16
+confusao 17
+remover 35
+ataque
+puxar-tras
+convocar-fim Clerigo16
+puxar-frente
+convocar-frente Clerigo17
+ataque
+caos 31
+ataque
+puxar-frente
+puxar-frente
+caos 2
+convocar-frente Arqueiro12
+posicionar Mago10 29
+convocar-fim Druida17
+posicionar Ladino12 5
+posicionar Paladino17 18
+caos 35
+convocar-frente Paladino18
+posicionar Mago11 12
+posicionar Paladino19 3
+caos 9
+posicionar Guerreiro19 11
+caos 9
+convocar-fim Druida18
+puxar-tras
+posicionar Paladino20 6
+remover 37
+convocar-fim Arqueiro13
+convocar-fim Arqueiro14
+posicionar Clerigo18 22
+posicionar Bardo7 21
+convocar-frente Bardo8
+remover 14
+confusao 39
+posicionar Clerigo19 4
+convocar-fim Clerigo20
+confusao 31
+posicionar Bardo9 30
+posicionar Bardo10 42
+puxar-tras
+convocar-fim Druida19
+ataque
+confusao 6
+posicionar Ladino13 12
+caos 5
+convocar-frente Clerigo21
+convocar-fim Bardo11
+caos 25
+puxar-tras
+ataque
+convocar-fim Bardo12
+convocar-frente Mago12
+caos 8
+caos 31
+sair

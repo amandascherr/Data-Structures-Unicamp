@@ -1,0 +1,14 @@
+Mago1 entrou no fim
+ordem de ataque: Mago1 
+Guerreiro1 entrou no fim
+ordem de ataque: Mago1 Guerreiro1 
+Arqueiro1 entrou no fim
+ordem de ataque: Mago1 Guerreiro1 Arqueiro1 
+Clerigo1 entrou no fim
+ordem de ataque: Mago1 Guerreiro1 Arqueiro1 Clerigo1 
+Arqueiro1 removido da posicao 2
+ordem de ataque: Mago1 Guerreiro1 Clerigo1 
+Mago1 removido da posicao 0
+ordem de ataque: Guerreiro1 Clerigo1 
+Clerigo1 removido da posicao 1
+ordem de ataque: Guerreiro1 

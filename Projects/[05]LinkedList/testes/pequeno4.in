@@ -1,0 +1,10 @@
+convocar-fim Arqueiro1
+convocar-frente Mago1
+convocar-fim Clerigo1
+convocar-fim Ladino1
+posicionar Guerreiro1 2
+remover 1
+caos 2
+confusao 3
+caos 4
+sair

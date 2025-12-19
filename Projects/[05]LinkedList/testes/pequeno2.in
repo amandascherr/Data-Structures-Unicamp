@@ -1,0 +1,17 @@
+convocar-frente Guerreiro1
+convocar-frente Mago1
+puxar-frente
+convocar-fim Paladino1
+ataque
+confusao 2
+convocar-frente Bardo1
+confusao 2
+convocar-fim Mago2
+posicionar Paladino2 4
+puxar-tras
+puxar-tras
+convocar-frente Ladino1
+puxar-frente
+caos 3
+remover 1
+sair

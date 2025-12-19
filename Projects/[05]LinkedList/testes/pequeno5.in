@@ -1,0 +1,21 @@
+convocar-fim Clerigo1
+convocar-fim Ladino1
+convocar-frente Bardo1
+confusao 3
+ataque
+convocar-frente Clerigo2
+ataque
+posicionar Mago1 4
+caos 5
+confusao 2
+confusao 2
+convocar-frente Mago2
+convocar-fim Bardo2
+puxar-tras
+convocar-frente Clerigo3
+convocar-frente Mago3
+puxar-tras
+puxar-frente
+confusao 4
+caos 4
+sair

@@ -1,0 +1,42 @@
+convocar-fim Paladino1
+ataque
+convocar-frente Ladino1
+ataque
+confusao 2
+confusao 2
+convocar-frente Paladino2
+confusao 3
+remover 1
+convocar-fim Druida1
+convocar-fim Ladino2
+caos 3
+puxar-frente
+remover 0
+caos 2
+convocar-fim Mago1
+puxar-frente
+remover 0
+puxar-tras
+convocar-frente Clerigo1
+ataque
+convocar-frente Paladino3
+caos 2
+puxar-tras
+convocar-fim Druida2
+puxar-frente
+puxar-tras
+convocar-frente Arqueiro1
+posicionar Ladino3 0
+remover 0
+posicionar Paladino4 0
+remover 0
+puxar-tras
+convocar-frente Ladino4
+convocar-frente Arqueiro2
+ataque
+remover 0
+convocar-fim Bardo1
+confusao 2
+posicionar Arqueiro3 2
+ataque
+sair
