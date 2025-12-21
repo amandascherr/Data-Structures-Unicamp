@@ -10,10 +10,17 @@ All projects were implemented in **C**, with a strong focus on algorithmic reaso
 
 This repository includes implementations and applications of structures such as:
 
-- Heaps / Priority Queues  
+- Matrices
+- Linked Lists
+- Binary Trees
+- Heaps / Priority Queues
+- Hash Tables
 - Graphs
   
 Each project focuses on one main structure, although auxiliary structures may also appear when necessary.
+
+Extra:\
+- Backtracking Algorithm 
 
 ---
 
