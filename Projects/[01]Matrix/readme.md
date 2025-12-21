@@ -61,7 +61,7 @@ A cada operação visualizar (V), deve ser impresso uma linha com o cabeçalho M
 AP 2 5 11\
 RH 0\
 V\
-S\
+S
 
 ### Saída:
 
@@ -71,4 +71,4 @@ MATRIZ ATUAL:\
 8 10\
 7 12\
 3 15\
-5 11\
+5 11
