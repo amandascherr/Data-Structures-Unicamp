@@ -17,10 +17,10 @@ This repository includes implementations and applications of structures such as:
 - Hash Tables
 - Graphs
   
-Each project focuses on one main structure, although auxiliary structures may also appear when necessary.
-
-Extra:\
+Extra:
 - Backtracking Algorithm 
+  
+Each project focuses on one main structure, although auxiliary structures may also appear when necessary.
 
 ---
 
